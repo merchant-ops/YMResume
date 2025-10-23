@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    section h2 {
+      color: #005a9c;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .container {
+        padding: 15px;
+      }
+      .profile-photo {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* optional: crops to fit nicely */
+        border-radius: 50%; /* optional: makes it a circle */
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="profile.jpg" alt="Profile Photo" class="profile-photo" />
+      <h1>Yash Merchant</h1>
+      <p>Your Major</p>
+    </header>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: ieee@ieee.org</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>GitHub: github.com/somedude</p>
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <p><strong>Some University Somewhere in the World</strong></p>
+      <p>EET, CET and all the other ET's 1991 - 2025</p>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Soldering</li>
+        <li>C++</li>
+        <li>Teamwork</li>
+      </ul>
+    </section>
+    <section class="experience">
+      <h2>Experience</h2>
+      <p><strong>
+	  IEEE Member
+	  Power Device Corporation, Bohemia,New York
+      Quality Assurance Engineer, [May 2025 – Present]
+      First Article Inspection
+      Manage RMA components
+
+     <BHorticultural Designs By Redbud LLC, Nesconset,New York
+     Landscaper, [April 2020 – March 2025]
+     Landscape design and maintenance for residential and commercial clients.
+     Maintain lawns, trees, shrubs, and plantings using a variety of power tools and equipment.
+
+	  </strong></p>
+      <p>Fall 2025</p>
+      <ul>
+        <li>Made a Website.</li>
+        <li>Learned Soldering Skills.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
